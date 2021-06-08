@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/tvPhotoIdRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <ImageView
+        android:id="@+id/ivImageRow"
+        android:scaleType="centerCrop"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:maxHeight="400dp"
+        android:adjustViewBounds="false"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
